@@ -1,5 +1,5 @@
 import { Expression } from './Expression'
-import { Money } from './Money'
+import { Money } from "./Money"
 
 const currenciesToKey = (pair: Pair): string => {
   return `${pair.from}_${pair.to}`
