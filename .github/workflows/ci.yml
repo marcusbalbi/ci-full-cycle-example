@@ -14,5 +14,5 @@ jobs:
         node-version: 12
     - name: npm install
       run: npm install
-    - name: eslint
-      uses: icrawl/action-eslint@v1
+    - name: npm lint
+      run: npm run lint
