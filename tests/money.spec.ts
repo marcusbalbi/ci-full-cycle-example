@@ -80,7 +80,7 @@ describe('Money', () => {
     expect(result).toEqual(Money.dollar(15))
   })
 
-  test('should handle times on a sum', () => {
+  test('should handle times in a sum', () => {
     const fiveDollars: Expression = Money.dollar(5)
     const tenEuros: Expression = Money.euro(10)
     const bank = new Bank()
