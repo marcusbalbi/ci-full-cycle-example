@@ -16,3 +16,16 @@ jobs:
       run: npm install
     - name: npm lint
       run: npm run lint
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: install node v12
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: npm install
+      run: npm install
+    - name: npm test
+      run: npm run test
