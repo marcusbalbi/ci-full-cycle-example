@@ -31,6 +31,7 @@
     "git-commit-msg-linter": "^2.4.4",
     "husky": "^7.0.0",
     "jest": "^27.4.5",
+    "jest-sonar-reporter": "^2.0.0",
     "lint-staged": "^10.5.4",
     "ts-jest": "^27.1.2",
     "typescript": "^3.9.7"
