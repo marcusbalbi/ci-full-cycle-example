@@ -43,4 +43,8 @@ export class Money implements Expression {
     const rate = bank.rate(this.currency, to)
     return new Money(this.amount / rate, to)
   }
+
+  toString(): string {
+    return `${this.getCurrency()}: ${this.getAmount()}`
+  }
 }
