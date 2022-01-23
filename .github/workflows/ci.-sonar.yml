@@ -11,5 +11,8 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 14
-      - run: npm run test:coverage
+      - name: npm install
+        run: npm install
+      - name: test-coverage
+        run: npm run test:coverage
           
